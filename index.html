@@ -4,117 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joyal Varghese - Profile</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 30px 20px;
-            background-color: #f8fafc;
-            color: #334155;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-        }
-        h1 {
-            color: #1e3a8a;
-            font-size: 2.25rem;
-            margin-top: 0;
-            border-bottom: 3px solid #3b82f6;
-            padding-bottom: 12px;
-        }
-        h2 {
-            color: #1d4ed8;
-            font-size: 1.5rem;
-            margin-top: 35px;
-            border-bottom: 1px solid #e2e8f0;
-            padding-bottom: 6px;
-        }
-        .meta-info {
-            background-color: #eff6ff;
-            padding: 15px 20px;
-            border-radius: 8px;
-            margin-bottom: 25px;
-            border-left: 4px solid #3b82f6;
-        }
-        .meta-info p {
-            margin: 5px 0;
-        }
-        ul {
-            padding-left: 24px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .btn-container {
-            margin: 20px 0;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #2563eb;
-            color: #ffffff;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 600;
-            margin-right: 12px;
-            margin-top: 10px;
-            transition: background-color 0.2s, transform 0.1s;
-        }
-        .btn:hover {
-            background-color: #1d4ed8;
-        }
-        .btn-secondary {
-            background-color: #475569;
-        }
-        .btn-secondary:hover {
-            background-color: #334155;
-        }
-        .motto {
-            font-style: italic;
-            font-weight: 600;
-            color: #1e3a8a;
-            background: #f0f9ff;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-            margin: 25px 0;
-            border: 1px dashed #bee3f8;
-        }
-        hr {
-            border: 0;
-            height: 1px;
-            background: #e2e8f0;
-            margin: 35px 0;
-        }
-        .footer {
-            text-align: center;
-            font-weight: 600;
-            margin-top: 40px;
-            color: #64748b;
-        }
-    </style>
 </head>
 <body>
 
-<div class="container">
     <h1>Welcome to My Profile</h1>
-    <div class="meta-info">
-        <p><b>Name:</b> Joyal Varghese</p>
-        <p><b>Group:</b> 4230</p>
-    </div>
+
+    <p><b>Name:</b> Joyal Varghese</p>
+    <p><b>Group:</b> 4230</p>
+
+    <hr>
 
     <h2>About Me</h2>
+
     <p>
         Hello! My name is Joyal Varghese. I am a student from
         Group 4230. I am interested in computers, technology,
         and web development.
     </p>
+
     <p>
         I enjoy learning new things and improving my skills.
         I am especially interested in learning how websites
@@ -122,6 +29,7 @@
     </p>
 
     <h2>My Education</h2>
+
     <p>
         I am currently studying and learning about computers,
         information technology, and web development.
@@ -129,6 +37,7 @@
     </p>
 
     <h2>My Hobbies</h2>
+
     <ul>
         <li>Listening to music</li>
         <li>Watching movies</li>
@@ -139,6 +48,7 @@
     </ul>
 
     <h2>My Skills</h2>
+
     <ul>
         <li>HTML</li>
         <li>Basic CSS</li>
@@ -149,6 +59,7 @@
     </ul>
 
     <h2>My Strengths</h2>
+
     <ul>
         <li>Hardworking</li>
         <li>Quick learner</li>
@@ -158,6 +69,7 @@
     </ul>
 
     <h2>My Interests</h2>
+
     <p>
         I am interested in computers, programming, websites,
         technology, and learning new skills. I enjoy exploring
@@ -165,49 +77,67 @@
     </p>
 
     <h2>My Goals</h2>
+
     <p>
         My short-term goal is to improve my programming and
         web development skills. I want to learn more about
         HTML, CSS, JavaScript, and other technologies.
     </p>
+
     <p>
         My long-term goal is to become a successful IT professional
         and create useful websites and applications.
     </p>
 
     <h2>My Resume</h2>
-    <p>You can view or download my resume using the options below:</p>
-    <div class="btn-container">
-        <!-- Links target the newly generated resume.pdf -->
-        <a href="resume.pdf" target="_blank" class="btn">Open Resume PDF</a>
-        <a href="resume.pdf" download class="btn btn-secondary">Download PDF</a>
-    </div>
+
+    <p>
+        You can view or download my resume by clicking the PDF icon below:
+    </p>
+
+    <!-- PDF Logo Link -->
+    <a href="resume.pdf" target="_blank" style="text-decoration: none; display: inline-block;">
+        <svg xmlns="http://w3.org" viewBox="0 0 512 512" width="60" height="60">
+            <path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V288H216c-13.3 0-24 10.7-24 24s10.7 24 24 24H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM176 352v32c0 8.8-7.2 16-16 16s-16-7.2-16-16V352c0-8.8 7.2-16 16-16s16 7.2 16 16zm48 16c0 26.5-21.5 48-48 48H160v16c0 8.8-7.2 16-16 16s-16-7.2-16-16V336c0-8.8 7.2-16 16-16h16c26.5 0 48 21.5 48 48zm80 48c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16h16c26.5 0 48 21.5 48 48v32zm-32-48c0-8.8-7.2-16-16-16s-16 7.2-16 16v32c0 8.8 7.2 16 16 16s16-7.2 16-16V368zm144-16c0 8.8-7.2 16-16 16H368v16c0 8.8-7.2 16-16 16s-16-7.2-16-16V336c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16s-7.2 16-16 16H368v16h32c8.8 0 16 7.2 16 16z" fill="#E24A3F"/>
+        </svg>
+    </a>
 
     <h2>My Presentation</h2>
-    <p>You can also view my presentation:</p>
-    <div class="btn-container">
-        <a href="https://google.com" target="_blank" class="btn">Open My Presentation</a>
-    </div>
+
+    <p>
+        You can also view my presentation:
+    </p>
+
+    <a href="https://google.com"
+       target="_blank">
+        Open My Presentation
+    </a>
 
     <h2>My Motto</h2>
-    <p class="motto">
-        "Learn something new every day and never stop improving."
+
+    <p>
+        <b>
+            "Learn something new every day and never stop improving."
+        </b>
     </p>
 
     <hr>
 
     <h2>Contact</h2>
+
     <p><b>Name:</b> Joyal Varghese</p>
     <p><b>Group:</b> 4230</p>
     <p><b>Email:</b> __________________________</p>
 
     <hr>
 
-    <p class="footer">
-        Thank you for visiting my profile!<br>
-        <span style="font-weight: normal; font-size: 0.9rem;">Joyal Varghese | Group 4230</span>
+    <p>
+        <b>Thank you for visiting my profile!</b>
     </p>
-</div>
+
+    <p>
+        Joyal Varghese | Group 4230
+    </p>
 
 </body>
 </html>
